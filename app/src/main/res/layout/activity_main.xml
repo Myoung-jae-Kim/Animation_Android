@@ -12,12 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.airbnb.lottie.LottieAnimationView
+    <!--<com.airbnb.lottie.LottieAnimationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_fileName="gift_popup.json"/>
-
+        app:lottie_fileName="gift_popup.json"/>-->
+    <Button
+        android:id="@+id/animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Animation Start!"/>
 
 </LinearLayout>
